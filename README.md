@@ -11,7 +11,7 @@ project over a Raspberry Pi. Which can be found: https://github.com/sjoulbak/ser
 
 ## Questions
 
-For questions please contact `@sjoulbak` on the Elixir slack.
+For any question please contact `@sjoulbak` on the Elixir slack.
 
 ## Contributing
 
