@@ -11,7 +11,13 @@ project over a Raspberry Pi. Which can be found: https://github.com/sjoulbak/ser
 
 ## Requirements
 
- - Xxtea-lib (https://github.com/boseji/xxtea-lib)
+- LoRa (https://github.com/sandeepmistry/arduino-LoRa)
+- Xxtea-lib (https://github.com/boseji/xxtea-lib)
+- TaskScheduler (https://github.com/arkhipenko/TaskScheduler)
+
+### Arduino
+
+- Servo (https://www.arduino.cc/en/Reference/Servo)
 
 ## Questions
 

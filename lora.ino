@@ -28,7 +28,7 @@ void loRa_setup(long freq, int sf, int cs, int rst, int irq, String key) {
 
 String loRa_receiveMessage() {
   int messageSize = LoRa.parsePacket();
-  String message;
+  String message = "";
 
   if (messageSize) {
     if (debug > 0) {
@@ -40,6 +40,9 @@ String loRa_receiveMessage() {
     }
   }
 
+  if (message == "") {
+    return "";
+  }
   return loRa_decrypt(message);
 }
 

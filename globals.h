@@ -3,6 +3,8 @@
 
   int debug=1; // 0 is off, 1 is on
 
+  #define useServo // comment to not use the servo part
+
   // LoRa settings
   long freq=8681E5;
   int sf=9;
